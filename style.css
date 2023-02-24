@@ -16,6 +16,10 @@ body {
     margin: 0;
 
 }
+/* this worked. id active makes it orange */
+#active {
+    background-color: hsl(25, 97%, 53%);
+}
 
 .container {
     background-color: hsl(213, 19%, 18%);
@@ -33,7 +37,7 @@ body {
     width: 250px;
     height: 25px;
     color:white;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 50px;
     text-decoration-color: aliceblue;    
 }
@@ -49,6 +53,11 @@ body {
     letter-spacing: 1px;
 }
 
+.submit:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%)
+}
+
 .howText {
     font-weight: bolder;
     font-size: larger;
@@ -61,11 +70,30 @@ body {
     font-size: small;
     color: grey;
     border: none;
+    margin-bottom: 0px;
 }
 
 .fiveStar {
     display: flex;
-    margin: 0px 50px 30px 30px;
+    margin: 0px 0px 70px 50px;
     border: none;
 }
+
+
+.eachStar {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    padding: 15px 18px;
+    border-radius: 50%;    
+}
+.eachStar:hover {
+    background-color: lightgray;
+}
+#oneStar {
+    color: hsl(25, 97%, 53%);
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
 
