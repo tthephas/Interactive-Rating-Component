@@ -17,7 +17,7 @@ body {
 
 }
 /* this worked. id active makes it orange */
-#active {
+.active {
     background-color: hsl(25, 97%, 53%);
 }
 
@@ -51,6 +51,7 @@ body {
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 1px;
+
 }
 
 .submit:hover {
