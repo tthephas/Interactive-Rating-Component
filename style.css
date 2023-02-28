@@ -21,6 +21,10 @@ body {
     background-color: hsl(25, 97%, 53%);
 }
 
+.hidden {
+    display: none;
+}
+
 .container {
     background-color: hsl(213, 19%, 18%);
     align-items: center;
@@ -30,7 +34,66 @@ body {
     border-radius: 15%;
     position: relative;
 
+
 }
+
+img {
+    height: 90px;
+    width: 130px;
+    
+}
+.thankYou-header, .thankYou-para, .finalRating, .thanks {
+    align-items: center;
+    justify-content: center;
+    margin: 20px 80px 5px 100px;
+}
+
+
+.finalRating {
+    color: hsl(25, 97%, 53%);
+    border: 1px none grey;
+    background-color: rgb(80, 80, 80);
+    border-radius: 15px;
+    text-align: center;
+    height: 31px;
+    width: 200px;
+    margin: 20px 50px 0px 75px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.thankYou-header, .thankYou-para {
+    color: white;
+}
+
+
+.thankYou-header {
+    font-size: 32px;
+    font-weight: bolder;
+    width: 180px;
+    margin: 30px 30px 0px 90px;
+}
+
+.thankYou-para {
+    font-size: small;
+    color: grey;
+    width: 300px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.thankyou-container {
+    background-color: hsl(213, 19%, 18%);
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 15%;
+    position: relative;
+
+}
+
 
 .oneStar, .howText, .tellText, .fiveStar, .submit {
     border: 1px solid white;
